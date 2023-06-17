@@ -1,11 +1,11 @@
-About r-waterfalls
-==================
+About r-waterfalls-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-waterfalls-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=waterfalls
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-waterfalls-feedstock/blob/main/LICENSE.txt)
 
 Summary: A not uncommon task for quants is to create 'waterfall charts'. There seems to be no simple way to do this in 'ggplot2' currently. This package contains a single function (waterfall) that simply draws a waterfall chart in a 'ggplot2' object. Some flexibility is provided, though often the object created will need to be modified through a theme.
 
