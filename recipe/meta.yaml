@@ -1,6 +1,5 @@
 {% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-waterfalls
@@ -13,8 +12,7 @@ source:
   sha256: 0dc8b94edc37239c0991cc5f435322f1ccf85df9f0b321f9f003ba0023e541f2
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
